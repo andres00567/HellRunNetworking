@@ -1,0 +1,55 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0.0",
+    "FriendlyName": "Hell Run Networking",
+    "Description": "Complete multiplayer networking system with session management, social features, and proximity chat for Hell Run",
+    "Category": "Networking",
+    "CreatedBy": "Hell Run Team",
+    "CreatedByURL": "",
+    "DocsURL": "",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "CanContainContent": false,
+    "Installed": false,
+    "Plugins": [
+        {
+            "Name": "OnlineSubsystem",
+            "Enabled": true
+        },
+        {
+            "Name": "OnlineSubsystemUtils",
+            "Enabled": true
+        },
+        {
+            "Name": "OnlineSubsystemNull",
+            "Enabled": true
+        },
+        {
+            "Name": "OnlineSubsystemSteam",
+            "Enabled": true
+        },
+        {
+            "Name": "SteamShared",
+            "Enabled": true
+        },
+        {
+            "Name": "SocketSubsystemSteamIP",
+            "Enabled": true
+        }
+    ],
+    "Modules": [
+        {
+            "Name": "HellRunNetworking",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+                "Win64",
+                "Mac",
+                "Linux",
+                "IOS",
+                "Android"
+            ]
+        }
+    ]
+}
